@@ -1,0 +1,21 @@
+
+
+.header{
+    color:#7e8bab;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+   
+    
+}
+
+.header > img{
+    width: 50px;
+}
+
+.header > p{
+    font-size: 20px;
+    font-weight: 400;
+   
+}
