@@ -27,7 +27,7 @@ const ClimateInfo = (props) => {
                     <p><WiHumidity/> 
                     Humidade: {props.humidy}%</p>
                     <p><FaWind/> Vento: {props.wind}m/s</p>
-                    <p><FaTemperatureArrowUp/> Temp Max:</p>
+                    <p><FaTemperatureArrowUp/> Temp Max: {props.temMax}</p>
                     <p><FaTemperatureArrowDown/> Temp Min: {props.temp}</p>
                 </div>
             </div>

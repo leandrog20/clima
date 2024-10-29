@@ -26,7 +26,7 @@ useEffect(() => {
   api(input).then(data => {
     setWeather(data['data'])
   })
-})
+}, [input])
 
 
  function Search(event) {
